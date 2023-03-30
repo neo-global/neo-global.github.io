@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -160,6 +164,14 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
+.work iframe{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+
 .layer{
     width: 100%;
     height: 100%;
@@ -232,4 +244,22 @@ nav ul li a:hover::after{
 
 .contact-left p{
     margin-top: 30px;
+}
+
+
+/*------------css for small screen------*/
+nav .fas{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/background.jpg)
+    }
+    .header-text{
+        margin-top: 50%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
 }

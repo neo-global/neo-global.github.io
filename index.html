@@ -13,15 +13,15 @@
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
-                <p>Media and the Society</p>
-                <h1>Hi, I'm <span>Aditi</span><br>Saraswat, <br>Media and Communications Specialist</h1>
+                <p>Computational Fluid Dynamics</p>
+                <h1>Hi, I'm <span>Rishikesh</span><br>from PSRL, IIT Kanpur</h1>
             </div>
         </div>
     </div>
@@ -30,11 +30,11 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/background.jpg">
+                    <img src="images/bubbles.png">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
+                    <p>I work at PSRL, IIT Kanpur, as a part of the Department of Materials Science and Engineering IIT Kanpur. I work on multiphase turbulent fluid flow modeling, as part of my PhD. My main tool of analysis is OpenFOAM where I am working on the volume of fluid and lagrangian particle tracking methods, coupled to species transport and interfacial mass transfer, and reaction modeling. The work is of significance to high temperature purification of molten metals such as steel.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -50,15 +50,15 @@
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Sahapedia Film Fellowship</span><br>Numerical analysis of fluid flow problems</li>
+                            <li><span>Research Associate</span><br>Numerical analysis of fluid flow problems</li>
                             <li><span>Consultant, Data Analytics, EXL</span><br>General post processing and data analysis, image processing and visualization</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2016</span><br>BA, History, DU</li>
-                            <li><span>2017</span><br>MA, MCS, TISS</li>
-                            <li><span>2019</span><br>JRF, Sociology, IIT Kanpur</li>
+                            <li><span>Bachelor of Technology</span><br>IIT Kanpur, 2016</li>
+                            <li><span>Master of Technology</span><br>IIT Kanpur, 2017</li>
+                            <li><span>Doctor of Philosophy</span><br>IIT Kanpur, ongoing</li>
                         </ul>
                     </div>
                 </div>
@@ -72,14 +72,27 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <iframe width=100% height=100% src="https://www.youtube.com/embed/SXenqBtmxik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <img src="images/plumeModel.png">
+                <div class="layer">
+                    <h3>Discrete phase modeling</h3>
+                    <p>modeling of dispersed phase such as bubble plumes</p>
+                    <a href="https://rdcu.be/c7xMr">Paper</i></a>
+                </div>
             </div>
             <div class="work">
-                <img src="images/filmfellowship.png">
+                <img src="images/areaTracking.gif">
                 <div class="layer">
-                    <h3>Mentor</h3>
-                    <p>Click to view films made under the project</p>
-                    <a href="https://www.youtube.com/results?search_query=sahapedia+film+fellowship">List</i></a>
+                    <h3>Interfacial area tracking</h3>
+                    <p>modeling of multiphase contact area in dynamics interface capturing</p>
+                    <a href="https://github.com/neo-global/lagrangianInterFoam">code</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tracerCurve.gif">
+                <div class="layer">
+                    <h3>Species transport modeling</h3>
+                    <p>modeling of species transport</p>
+                    <a href="#"><i class="fa-regular fa-file-pdf"></i></a>
                 </div>
             </div>
         </div>
@@ -88,7 +101,7 @@
 </div>
 
 <!----------contact-------------->
-<div id="contact">
+<div class="contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
